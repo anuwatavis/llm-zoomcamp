@@ -25,7 +25,7 @@ What's the first value of the resulting vector?
 
 * -0.24
 * -0.04
-* 0.07
+* 0.07 [x]
 * 0.27
 
 
@@ -61,7 +61,8 @@ We want to put all of them into a single matrix `X`:
 - compute the embedding for `qa_text`, append to `embeddings`
 - At the end, let `X = np.array(embeddings)` (`import numpy as np`) 
 
-What's the shape of X? (`X.shape`). Include the parantheses. 
+What's the shape of X? (`X.shape`). Include the parantheses.
+(375, 768)
 
 
 
@@ -85,7 +86,7 @@ What's the highest score in the results?
 
 - 65.0 
 - 6.5
-- 0.65
+- 0.65 [x]
 - 0.065
 
 
@@ -142,7 +143,7 @@ Now use the code from the module to calculate the hitrate of
 
 What did you get?
 
-* 0.93
+* 0.93 [x]
 * 0.73
 * 0.53
 * 0.33
@@ -157,6 +158,7 @@ Now let's index these documents with elasticsearch
 After indexing, let's perform the search of the same query from Q1.
 
 What's the ID of the document with the highest score?
+[ee58a693]
 
 ## Q6. Hit-rate for Elasticsearch
 
@@ -171,7 +173,7 @@ exact search (as in Q4) to approximate search with Elastic.
 
 What's hitrate for our dataset for Elastic?
 
-* 0.93
+* 0.93 [x]
 * 0.73
 * 0.53
 * 0.33
