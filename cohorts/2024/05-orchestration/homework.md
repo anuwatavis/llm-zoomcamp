@@ -55,6 +55,8 @@ Now mage is running on [http://localhost:6789/](http://localhost:6789/)
 
 What's the version of mage? 
 
+- v0.9.72
+
 ## Creating a RAG pipeline
 
 Create a RAG pipeline
@@ -77,7 +79,7 @@ Which is the document ID of
 Copy the code to the editor
 How many FAQ documents we processed?
 
-* 1
+* 1 [x]
 * 2
 * 3
 * 4
@@ -140,7 +142,7 @@ How many documents (chunks) do we have in the output?
 
 * 66
 * 76
-* 86
+* 86 [x]
 * 96
 
 
@@ -246,6 +248,8 @@ What's the last document id?
 
 Also note the index name.
 
+- a976d6e7
+
 
 ## Q5. Testing the retrieval
 
@@ -255,6 +259,8 @@ test it.
 Let's use the following query: "When is the next cohort?"
 
 What's the ID of the top matching result?
+
+- bf024675
 
 
 ## Q6. Reindexing
@@ -269,6 +275,8 @@ The ID of this document is `1T3MdwUvqCL3jrh3d3VCXQ8xE0UqRzI3bfgpfBq3ZWG0`.
 Let's re-execute the entire pipeline with the updated data.
 
 For the same query "When is the next cohort?". What's the ID of the top matching result?
+
+- b6fa77f3
 
 
 
